@@ -1,0 +1,15 @@
+.main-nav {
+  padding: 0;
+  background-color: $darc-color;
+  margin: 10px 0 0 10px;
+}
+
+.main-nav__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav-list__item__link {
+  color: $white-color;  
+  text-decoration: none;
+}

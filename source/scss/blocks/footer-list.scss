@@ -1,0 +1,14 @@
+.footer-list {
+  display: flex;
+  flex-wrap: wrap;
+} 
+
+.footer-list__item {
+  margin: 0 13px;
+  font-size: 12px;
+}
+
+.footer-list__item__link {
+  color: $white-color; 
+  border-bottom: #fff 1px solid; 
+}

@@ -1,0 +1,40 @@
+form {
+  max-width: 532px;
+  margin: 0 auto 0 30px;
+  padding: 50px 0 0 0;
+  padding: 20px 60px;
+  background-color: #f2f2f2;
+}
+
+legend {
+  padding: 0 0 20px 0;
+  color: #eb5017;
+  font-size: 30px;
+}
+
+#btn {
+  margin: 20px 0;
+  padding: 12px;
+  background-image: linear-gradient(#aff300, #7cc400);
+  background-color: #96dc00;
+  color: #395306;
+  border: #fff 1px solid;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#btn:hover {
+  box-shadow: 0px 2px 6px #ffffbe inset;
+}
+
+#btn:focus {
+  outline: none;
+}
+
+#result_form  {
+  margin: -96px 0 0 210px;
+}
+
+#slider {
+  width: 300px; 
+}

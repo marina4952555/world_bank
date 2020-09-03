@@ -1,0 +1,22 @@
+.nav-list {
+  display: block;
+}
+
+@media (min-width: 480px) {
+  .nav-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .nav-list__item__link {
+    display: block;
+    padding: 9px 20px;
+  }
+}
+
+@media (min-width: 900px) {
+  .nav-list__item:not(:first-child) {
+    border-left: $orange-color 1px solid;  
+  }
+}
