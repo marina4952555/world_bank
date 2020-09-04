@@ -38,14 +38,18 @@ legend {
 }
 
 #slider {
-  margin-top: 10px;
-  width: 200px; 
+  margin-top: 5px;
+  width: 240px; 
 }
 
 .summ,
 .summrep,
 .date {
-  width:130px;
+  width:85px;
+}
+
+#slider {
+  z-index: 0;
 }
 
 

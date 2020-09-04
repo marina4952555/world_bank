@@ -1,8 +1,8 @@
 <?php
-  $result = gettype($_POST['date']);
-  $startDay = substr($_POST['date'], 8, 2);
-  $startMonth = substr($_POST['date'], 5, 2);
-  $startYear = substr($_POST['date'], 0, 4);
+  $result = $_POST['date'];
+  $startDay = substr($_POST['date'], 0, 2);
+  $startMonth = substr($_POST['date'], 3, 2);
+  $startYear = substr($_POST['date'], 7, 4);
   $period;
   $percent = 0.1;
   $replenishmentSumm = $_POST["summrep"];
