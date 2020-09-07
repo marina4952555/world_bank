@@ -51,11 +51,17 @@
     </div>
     <form method="post" id="ajax_form" action="" >
       <legend>Калькулятор</legend>
-      <label>Дата формирования вклада <input type="text" name="date" class="date" autocomplete="off" required></label><br><br>
+      <label>Дата формирования вклада 
+        <input type="text" name="date" class="date" autocomplete="off" required>
+      </label>
+      <br><br>
       <div style="display:flex; justify-content: space-between;">
-        <label>Сумма вклада <input type="text" class="summ" name="summ" min="1000" max="3000000" pattern="[0-9]{4,7}" required ></label>
+        <label>Сумма вклада 
+          <input type="text" class="summ" name="summ" min="1000" max="3000000" pattern="[0-9]{4,7}" required >
+        </label>
         <div class="slider1" id="slider"></div>
-      </div><br>
+      </div>
+      <br>
       <label> Срок вклада 
         <select name="term" class="term">
           <option value="1">1 год</option>
@@ -64,13 +70,17 @@
           <option value="4">4 года</option>
           <option value="5">5 лет</option>
         </select>
-      </label><br><br>
+      </label>
+      <br><br>
       <label class="replenishment">Пополнение вклада 
         <input type="radio" name="replenishment" value="true" id='radio1'>Да
         <input type="radio" name="replenishment" value="false" id='radio2' checked>Нет
-      </label><br><br>
+      </label>
+      <br><br>
       <div style="display:flex; justify-content: space-between;">
-        <label>Сумма пополнения вклада <input type="text" class="summrep" name="summrep" min="1000" max="3000000" pattern="[0-9]{4,7}"></label>
+        <label>Сумма пополнения вклада 
+          <input type="text" class="summrep" name="summrep" min="1000" max="3000000" pattern="[0-9]{4,7}">
+        </label>
         <div class="slider2" id="slider"></div>
       </div>
       <button id="btn">Рассчитать</button>
