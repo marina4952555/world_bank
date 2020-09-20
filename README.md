@@ -1,5 +1,5 @@
 Тестовое задание "world bank".<br>
-Используемые инструменты: html, scss, gulp, php, jQuery, Ajax.<br>
+Используемые инструменты: scss, gulp, php, jQuery, Ajax.<br>
 Для запуска:<br> 
 Установить зависимости npm i<br>
 Запустить сборку npm run build<br>
