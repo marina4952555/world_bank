@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>World_Bank</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.min.css">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -12,7 +12,7 @@
 <body>
   <header class="main-header">
     <div class="info">
-      <img class="info__logo" src="logo.png" alt="логотип" height="86" width="231">
+      <img class="info__logo" src="img/logo.png" alt="логотип" height="86" width="231">
       <div class="info__phone phone_number">
         <a class="phone_number__link" href="tel:+78001005005">8-800-100-50-05</a>
         <a class="phone_number__link" href="tel:+73452522000">+7(3452)255-000</a>
@@ -111,7 +111,7 @@
       </li>
     </ul>
   </footer>
-  <script src="script.js"></script>
+  <script src="js/script.js"></script>
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </body>

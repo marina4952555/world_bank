@@ -12,3 +12,8 @@
   color: $white-color; 
   border-bottom: #fff 1px solid; 
 }
+
+.footer-list__item__link:hover {
+  color: $orange-color; 
+  border-bottom: $orange-color 1px solid;
+}
