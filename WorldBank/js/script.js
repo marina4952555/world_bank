@@ -16,22 +16,6 @@ $('#radio2').on('change', e => {
   $('.summrep').attr('required', false);
 });
 
-function sendAjaxForm(result_form, ajax_form, url) {
-  $.ajax({
-      url: url, 
-      type: "POST",
-      dataType: "html",
-      data: $("#"+ajax_form).serialize(),
-      success: function(response) { 
-        console.log(response);
-        result = $.parseJSON(response);
-        $('#result_form').html('Результат: '+result);
-    },
-    error: function(response) { 
-          $('#result_form').html('Ошибка. Данные не отправлены.');
-    }
- })
-}
 
 $( function() {
   $( ".slider1" ).slider({
@@ -58,3 +42,20 @@ $( function() {
   });
   $( ".summrep" ).val( $( ".slider2" ).slider( "value" ) );
 } );
+
+function sendAjaxForm(result_form, ajax_form, url) {
+  $.ajax({
+      url: url, 
+      type: "POST",
+      dataType: "html",
+      data: $("#"+ajax_form).serialize(),
+      success: function(response) { 
+        console.log(response);
+        result = $.parseJSON(response);
+        $('#result_form').html('Результат: '+result);
+    },
+    error: function(response) { 
+          $('#result_form').html('Ошибка. Данные не отправлены.');
+    }
+ })
+}
